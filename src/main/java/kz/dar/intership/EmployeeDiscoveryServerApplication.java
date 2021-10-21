@@ -9,7 +9,12 @@ import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 public class EmployeeDiscoveryServerApplication {
 
 	public static void main(String[] args) {
+
+		Object ob = new Object();
+
+
 		SpringApplication.run(EmployeeDiscoveryServerApplication.class, args);
 	}
+
 
 }

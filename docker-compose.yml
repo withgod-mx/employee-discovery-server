@@ -1,0 +1,12 @@
+version: '3'
+
+services:
+  jhooq-springboot-container:
+    image: employee-discovery-server:1
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - /data/employee-discovery-server
+    ports:
+      - "8010:8010"
